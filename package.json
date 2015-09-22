@@ -1,0 +1,27 @@
+{
+  "name": "get-date",
+  "version": "0.0.0",
+  "description": "Calculate the age in years for a birth date",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsiddiqui/get-date.git"
+  },
+  "keywords": [
+    "add",
+    "math",
+    "sum"
+  ],
+  "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsiddiqui/get-date/issues"
+  },
+  "homepage": "https://github.com/bsiddiqui/get-date#readme",
+  "devDependencies": {
+    "standard": "^5.2.2"
+  }
+}

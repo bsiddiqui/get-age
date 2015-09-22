@@ -1,0 +1,13 @@
+'use strict'
+
+// http://stackoverflow.com/questions/4060004/calculate-age-in-javascript/7091965#7091965
+module.exports = function getAge (dateString) {
+  var today = new Date()
+  var birthDate = new Date(dateString)
+  var age = today.getFullYear() - birthDate.getFullYear()
+  var month = today.getMonth() - birthDate.getMonth()
+  if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+    age--
+  }
+  return age
+}
