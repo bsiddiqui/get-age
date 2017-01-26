@@ -6,7 +6,7 @@ module.exports = function getAge (dateString) {
   var birthDate = new Date(dateString)
   var age = today.getFullYear() - birthDate.getFullYear()
   var month = today.getMonth() - birthDate.getMonth()
-  if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+  if (month < 0 || (month === 0 && today.getUTCDate() < birthDate.getUTCDate())) {
     age--
   }
   return age
