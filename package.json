@@ -1,6 +1,6 @@
 {
   "name": "get-age",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate the age in years for a birth date",
   "main": "index.js",
   "scripts": {
